@@ -163,14 +163,13 @@ body {
 /* Button */
 
 .button {
-	color: var(--primary-text-color);
-	background-color: var(--accent-color);
+	/* color: var(--primary-text-color);
+	background-color: var(--accent-color); */
 	font-family: inherit;
 	text-decoration: none;
+	cursor: pointer;
 }
 .button.primary {
-	cursor: pointer;
-
 	color: var(--primary-white-color);
 	background-color: var(--accent-color);
 	font-weight: 700;
@@ -178,4 +177,21 @@ body {
 	line-height: 1.88;
 }
 .button.secondary {
+	color: var(--primary-text-color);
+	background-color: var(--secondary-color);
+	text-decoration: none;
+	font-family: "Roboto";
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.62;
+	/* identical to box height, or 162% */
+
+	text-align: center;
+	letter-spacing: 0.03em;
+}
+
+.button:hover,
+.button:focus {
+	color: var(--primary-white-color);
+	background-color: var(--accent-color);
 }
