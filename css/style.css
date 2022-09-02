@@ -25,7 +25,6 @@ body {
 	color: var(--paragraph-text-color);
 	font-size: 14px;
 	line-height: 1.71;
-	/* or 171% */
 }
 
 .list {
@@ -163,8 +162,6 @@ body {
 /* Button */
 
 .button {
-	/* color: var(--primary-text-color);
-	background-color: var(--accent-color); */
 	font-family: inherit;
 	text-decoration: none;
 	cursor: pointer;
@@ -179,12 +176,10 @@ body {
 .button.secondary {
 	color: var(--primary-text-color);
 	background-color: var(--secondary-color);
-	text-decoration: none;
-	font-family: "Roboto";
+
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.62;
-	/* identical to box height, or 162% */
 
 	text-align: center;
 	letter-spacing: 0.03em;
@@ -194,4 +189,21 @@ body {
 .button:focus {
 	color: var(--primary-white-color);
 	background-color: var(--accent-color);
+}
+
+/* portfolio */
+
+.filter-list .title {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 2;
+
+	letter-spacing: 0.06em;
+}
+
+.filter-list .text {
+	font-size: 16px;
+	line-height: 1.88;
+
+	letter-spacing: 0.03em;
 }
